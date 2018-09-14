@@ -1,0 +1,33 @@
+{
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "cross-env webpack-dev-server --config webpack.config.js --mode=development -w --hot",
+		"development": "npm run dev",
+		"prod": "cross-env webpack --config webpack.config.js --mode=production -p",
+		"production": "npm run prod"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.1.5",
+		"clean-webpack-plugin": "^0.1.19",
+		"cross-env": "^5.2.0",
+		"css-loader": "^1.0.0",
+		"file-loader": "^2.0.0",
+		"mini-css-extract-plugin": "^0.4.2",
+		"node-sass": "^4.9.3",
+		"postcss-color-hex-alpha": "^3.0.0",
+		"postcss-color-mod-function": "^2.4.3",
+		"postcss-loader": "^3.0.0",
+		"postcss-preset-env": "^5.3.0",
+		"postcss-scss": "^2.0.0",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.0",
+		"webpack": "^4.17.2",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.8",
+		"webpack-merge": "^4.1.4",
+		"webpack-serve": "^2.0.2"
+	},
+	"browserslist": [
+		"> 2.9%"
+	]
+}
